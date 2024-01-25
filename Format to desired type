@@ -1,4 +1,4 @@
-String olddate=sim.getExpiredOn();
+String olddate=sim.getDateValue();
 SimpleDateFormat existingdf=new SimpleDateFormat("dd-mm-yyyy");
 Date date=existingdf.parse(olddate);
 SimpleDateFormat newformat=new SimpleDateFormat("yyyy-mm-dd");
